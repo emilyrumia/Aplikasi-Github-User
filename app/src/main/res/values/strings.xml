@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Aplikasi Github User</string>
+    <string name="name">Name</string>
+    <string name="username">Username</string>
+    <string name="format_username">\@%1$s</string>
+    <string name="search_user">mau cari siapa?</string>
+    <string name="followers">Followers</string>
+    <string name="format_followers">%d Followers</string>
+    <string name="following">Following</string>
+    <string name="format_following">%d Following</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="toolbar">Github Search User</string>
+    <string name="toolbar_detail">Detail User</string>
+    <string name="toolbar_favorite">Favorite User</string>
+</resources>
