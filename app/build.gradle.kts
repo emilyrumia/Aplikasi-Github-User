@@ -26,13 +26,13 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
-            // buildConfigField("String", "BASE_URL", "\"https://api.github.com/\"")
-            // buildConfigField("String", "API_KEY", "\"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\"")
+            buildConfigField("String", "BASE_URL", "\"https://api.github.com/\"")
+            buildConfigField("String", "API_KEY", "\"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\"")
         }
-        // debug {
-        //     buildConfigField("String", "BASE_URL", "\"https://api.github.com/\"")
-        //     buildConfigField("String", "API_KEY", "\"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\"")
-        // }
+        debug {
+            buildConfigField("String", "BASE_URL", "\"https://api.github.com/\"")
+            buildConfigField("String", "API_KEY", "\"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\"")
+        }
     }
     buildFeatures {
         buildConfig = true
